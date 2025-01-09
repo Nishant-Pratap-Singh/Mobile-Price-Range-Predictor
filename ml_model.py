@@ -8,7 +8,7 @@ from sklearn.model_selection import cross_val_score
 
 def load_data():
   # Download the data from Kaggle (replace with your downloaded file path)
-  data_path = "C:\\Users\\admin\\Documents\\Mine Documents\\Data Sciene\\Mobile Price Range Predictor Web App\\train.csv"  
+  data_path = "train.csv"  
   data = pd.read_csv(data_path)
   return data
 
