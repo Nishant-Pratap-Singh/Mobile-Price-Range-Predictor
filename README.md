@@ -28,6 +28,7 @@ The dataset contains features like:
 - price_range: Target variable (0 = Low, 1 = Medium, 2 = High, 3 = Very High).
   
 For a detailed description of all features, check the Dataset Exploration section of the app.
+link - https://nps-mobile-price-range-predictor.streamlit.app/
 
 # 📂 Repository Structure
 Mobile Price Range Predictor/
