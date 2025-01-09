@@ -35,6 +35,7 @@ Mobile Price Range Predictor/
 - ├── ml_model.py        # Machine learning model and helper functions
 - ├── train.csv          # Dataset used for training and exploration
 - ├── new1.jpg           # Image used in the Streamlit app
+- ├── requirements.txt   # Python dependencies for running the app
 - └── README.md          # Project documentation
 
 # 📈 Machine Learning Model
