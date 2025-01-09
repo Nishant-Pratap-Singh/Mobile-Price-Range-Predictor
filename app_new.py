@@ -44,7 +44,7 @@ def correlation():
 # This sets the App Name and its Icon
 st.set_page_config(page_title="Mobile Price Range Predictor", page_icon="🔍")
 # Reading the dataset
-data= pd.read_csv("C:\\Users\\admin\\Documents\\Mine Documents\\Data Sciene\\Mobile Price Range Predictor Web App\\train.csv")
+data= pd.read_csv("train.csv")
 # Show some dataset tuples in App
 some = data.loc[:100]
 
@@ -53,7 +53,7 @@ page = st.sidebar.selectbox('Select Page',['Dataset Exploration','Predictor','Ab
 # This is the content on Exploration Page
 if page=='Dataset Exploration':
     st.title("Mobile Price Range Exploration")
-    st.image("C:\\Users\\admin\\Documents\\Mine Documents\\Data Sciene\Mobile Price Range Predictor Web App\\new1.jpg")
+    st.image("new1.jpg")
     st.write("This section helps in analysing the data, we explored a dataset containing various attributes of mobile phones, including battery_power, blue (Bluetooth availability), ram (Random Access Memory), and px_width (Pixel Resolution Width).. etc. The primary objective of this section was to understand the relationship between different features and the price range of the mobile phones. These insights are crucial for understanding the factors that contribute to the pricing of mobile phones and can guide manufacturers and consumers in making informed decisions.")
     st.markdown("**Dataset** - https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification")
     st.markdown("---")
@@ -133,7 +133,7 @@ if page=='Dataset Exploration':
 
 if page=='Predictor':
     st.title("Mobile Price Range Predictor")
-    st.image("C:\\Users\\admin\\Documents\\Mine Documents\\Data Sciene\Mobile Price Range Predictor Web App\\new1.jpg")
+    st.image("new1.jpg")
     st.write("In this section, we employed a machine learning model, Support Vector Machine(SVC) to predict the price range of mobile phones based on their attributes. After preprocessing the data and splitting it into training and testing sets, we trained the model using features such as battery_power, ram, px_width, and px_height, int_memory, sc_w. These predictions are crucial for consumers seeking to make informed purchasing decisions and for manufacturers aiming to optimize pricing strategies.")
     st.markdown("---")
     st.subheader("You need to select the values in order to predict the price range of mobile phones.")
