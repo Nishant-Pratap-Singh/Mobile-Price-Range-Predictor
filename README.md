@@ -29,6 +29,14 @@ The dataset contains features like:
   
 For a detailed description of all features, check the Dataset Exploration section of the app.
 
+# 📂 Repository Structure
+Mobile Price Range Predictor/
+- ├── app_new.py         # Streamlit app for data exploration and prediction
+- ├── ml_model.py        # Machine learning model and helper functions
+- ├── train.csv          # Dataset used for training and exploration
+- ├── new1.jpg           # Image used in the Streamlit app
+- └── README.md          # Project documentation
+
 # 📈 Machine Learning Model
 1. **Algorithm**: Support Vector Machine (SVC)
 2. **Evaluation**:
